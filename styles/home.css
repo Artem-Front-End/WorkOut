@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+}
+
+.homePage{
+    display: flex;
+}
+
+.homePage img{
+    width: 35%;
+    object-fit: cover;
+}
+
+.rightDescription{
+    padding-left: 100px;
+    margin-top: 15px;
+}
+
+.rightDescription h3{
+    color: #398AB9;
+}
+
+.textContainer:hover{
+    border-right: 2px solid #398AB9 ;
+    transition: all ease 200ms;
+}

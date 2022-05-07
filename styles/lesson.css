@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+}
+
+.wrapper{
+    width: 80%;
+    margin: 10px auto;
+}
+
+h2{
+    color: #1C658C;
+    margin: 10px;
+}
+
+.workoutBlock{
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 5%;
+    border-right: 2px solid #398AB9;
+    margin-bottom: 50px;
+}
+
+.train{
+    border-bottom: 1px solid lightgrey;
+}
+
+.train a{
+    text-decoration: none;
+    color: #1C658C;
+}
+
+.train a:hover{
+    font-weight: bold;
+}
+
+.train:hover{
+    box-shadow: 2px 2px 2px #1C658C;
+}
+

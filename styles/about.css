@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+}
+
+.teamBlock{
+    background-color: #398AB9;
+    color: white;
+    width: 30%;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.teamBlock h2{
+    font-family: cursive;
+}
+
+.teamBlock h4{
+    color: #78ceff;
+    margin-bottom: 5px;
+}
+
+main h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 90px;
+    color: #398AB9;
+}
+
+.sliderContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sliderContainer button{
+    margin: 100px;
+    content: '⦁';
+    font-size: 100px;
+    background-color: white;
+    border: none;
+    color: #1C658C;
+}
+
+.sliderContainer button:hover{
+    color: #398AB9;
+}
+
+.sliderContainer button:active{
+    color: cornflowerblue;
+}
+
+.slider{
+    max-width: 80%;
+    border-top: 2px solid lightgrey;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.sliderLine{
+    display: flex;
+    transition: all ease 800ms;
+}
+
